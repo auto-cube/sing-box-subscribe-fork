@@ -1,11 +1,11 @@
 {
-    "functions": {
-        "api/app.py": {
-          "maxDuration": 60
-        }
-    },
-    "rewrites": [
+  "functions": {
+    "api/app.py": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
         { "source": "/(.*)", "destination": "/api/app" }
     ],
-    "outputDirectory": "tmp"
+  "outputDirectory": "tmp"
 }
